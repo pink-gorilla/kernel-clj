@@ -7,7 +7,11 @@
            appliedscience/js-interop {:mvn/version "0.1.13"}
            viebel/codemirror-parinfer {:mvn/version "0.0.3"}
            cljs-http                  {:mvn/version "0.1.42"}
-           viebel/gadjett             {:mvn/version "0.5.2"}}
+           viebel/gadjett             {:mvn/version "0.5.2"}
+           awb99.fortune              {:mvn/version "0.0.1"}
+           }
+           
+ 
  :aliases {:fig {:extra-deps {cider/cider-nrepl {:mvn/version "0.18.0"}
                               cider/piggieback  {:mvn/version "0.3.9"}
                               com.bhauman/figwheel-main       {:mvn/version "0.1.9-SNAPSHOT"}

@@ -31,4 +31,8 @@
 (go (println (<! (eval-async-map "(map inc [1 2 3])" {}))))
 
 
+(ns demo
+  (:require  
+       klipse-clj.lang.clojure.bundled-namespaces))
 
+(go (println (<! (eval-async-map "(cookie)" {}))))

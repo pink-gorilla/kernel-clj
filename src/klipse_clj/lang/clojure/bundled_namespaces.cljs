@@ -11,5 +11,8 @@
             clojure.data
             clojure.datafy
             clojure.set
-            klipse-clj.tools))
+            klipse-clj.tools
+            
+            fortune.core
+            ))
 
