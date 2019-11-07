@@ -4,7 +4,7 @@
 
 - You need to have clj installed.
 - run ./test.sh and wait for the figwheel terminal window to appear
-- copy expressions from test.md and eval them for testin
+- copy expressions from test.md and eval them for testing
 
 ## Unit Tests
 ```bash
