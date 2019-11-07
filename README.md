@@ -1,19 +1,18 @@
-If you like this stuff, please consider a (small donation) on [Patreon](https://www.patreon.com/bePatron?u=18227864).
+# Clojurescript Kernel used in pink gorilla notebook.
 
+# manual tests
 
-# dev
-```bash
-clj  -A:figwheel -C:test  --build dev --repl
+- You need to have clj installed.
+- run ./test.sh and wait for the figwheel terminal window to appear
+- copy expressions from test.md and eval them for testin
 ```
 
-
-# Tests - Auto reload
+## Unit Tests
 ```bash
 clj  -A:figwheel -C:test  --build test --repl
 ```
 
-
-# Tests - CI
+## Tests - CI
 
 ```bash
 clj -A:figwheel -m klipse.test-runner-ci
