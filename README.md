@@ -6,6 +6,12 @@
 - run ./test.sh and wait for the figwheel terminal window to appear
 - copy expressions from test.md and eval them for testing
 
+## Advanced usecases
+
+see:
+https://github.com/viebel/klipse-app
+
+
 ## Unit Tests
 
 ```bash
